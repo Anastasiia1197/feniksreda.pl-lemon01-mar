@@ -39,23 +39,23 @@
 :root {
 	interpolate-size: allow-keywords;
 
-	--background: linear-gradient(45deg, #0c0a09 0%, #1c1917 45%, #0c0a09 100%);
-	--header: linear-gradient(90deg, #1c1917e0, #2dd4bf, #0c0a09);
-	--btn-accent: linear-gradient(135deg, #fb923c, #ea580c);
-	--btn-inherit: #fff7ed;
-	--accent: linear-gradient(135deg, #f97316, #c2410c);
-	--sub-title: linear-gradient(-135deg, #2dd4bf30, #042f2e);
-	--gift: #f0fdfae1;
-	--gift-bg: rgba(251, 146, 60, 0.1);
-	--gift-btn: linear-gradient(135deg, #9a3412, #431407);
-	--border-radius: 10px;
-	--container: #0c0a09;
-	--table: linear-gradient(180deg, #1c1917, #0c0a09);
-	--minus: #38bdf8;
-	--shadow: #fb923c50;
-	--second-shadow: #ea580c;
-	--text-shadow: #2dd4bf;
-	--list-bg: linear-gradient(90deg, rgba(45, 212, 191, 0.1), rgba(251, 146, 60, 0.1));
+	--background: linear-gradient(45deg, #0a0a0a 0%, #171717 45%, #0a0a0a 100%);
+	--header: linear-gradient(90deg, #171717e0, #d9f99d, #0a0a0a);
+	--btn-accent: linear-gradient(135deg, #bef264, #65a30d);
+	--btn-inherit: #f7fee7;
+	--accent: linear-gradient(135deg, #d9f99d, #4d7c0f);
+	--sub-title: linear-gradient(-135deg, #bef26420, #171717);
+	--gift: #f7fee7e1;
+	--gift-bg: rgba(190, 242, 100, 0.05);
+	--gift-btn: linear-gradient(135deg, #262626, #0a0a0a);
+	--border-radius: 8px;
+	--container: #0a0a0a;
+	--table: linear-gradient(180deg, #171717, #0a0a0a);
+	--minus: #a3e635;
+	--shadow: rgba(163, 230, 21, 0.15);
+	--second-shadow: #4d7c0f;
+	--text-shadow: #bef264;
+	--list-bg: linear-gradient(90deg, rgba(190, 242, 100, 0.05), transparent);
 }
 
 * {
@@ -259,6 +259,7 @@ header img {
 }
 
 .promo {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
